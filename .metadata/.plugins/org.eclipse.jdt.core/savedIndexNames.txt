@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Projects\Java\Television\.metadata\.plugins\org.eclipse.jdt.core
+75931715.index
+1865797976.index
+3730371946.index

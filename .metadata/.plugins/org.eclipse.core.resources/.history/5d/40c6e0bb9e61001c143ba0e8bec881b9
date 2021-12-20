@@ -1,0 +1,5 @@
+package techtoolbox.television;
+
+public class Television {
+	public static JDA jda;
+}
