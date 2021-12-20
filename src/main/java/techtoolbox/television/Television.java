@@ -5,6 +5,7 @@ import net.dv8tion.jda.api.entities.Activity;
 import net.dv8tion.jda.api.requests.GatewayIntent;
 import net.dv8tion.jda.api.utils.Compression;
 import net.dv8tion.jda.api.utils.cache.CacheFlag;
+import techtoolbox.television.commands.Clear;
 
 import javax.security.auth.login.LoginException;
 
@@ -16,7 +17,7 @@ public class Television {
 
     public static void main(String[] args) throws LoginException {
 
-        String token = "OTIyNDgzNTEyNjgxMDUwMTQy.YcCHuA.rUTWxR7FkwB3y0OJ-nVcWwz302s";
+        String token = "OTIyNDgzNTEyNjgxMDUwMTQy.YcCHuA.Q-gnK7bANrOmmdFyR-DtE8mJst4";
         jda = JDABuilder.createDefault(token).build();
 
         //jda.getPresence().setStatus(OnlineStatus.IDLE);
@@ -27,7 +28,7 @@ public class Television {
             System.out.println("Server is NOT IDLE");
         }
 
-        jda.addEventListener(new Commands());
+        jda.addEventListener(new Clear());
 
         //jda.getPresence().setStatus(OnlineStatus.IDLE);
 
